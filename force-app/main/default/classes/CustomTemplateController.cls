@@ -18,6 +18,7 @@ public class CustomTemplateController{
     this.populateCSData();
   }
   /////////////////HELLO gITTT//////////////////
+  ///////////////T1 CHANGE FOR RElease 2/////////////////// 
   public void populateTemplate(){
     template = [SELECT Id, SBQQ__FontFamily__c, SBQQ__FontSize__c, SBQQ__ShadingColor__c FROM SBQQ__QuoteTemplate__c WHERE Id = :templateId];
   }
